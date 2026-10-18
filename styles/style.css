@@ -7,10 +7,6 @@
   white-space: nowrap;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 60px;
-}
-
 .no-letter-spacing {
   letter-spacing: normal;
 }
@@ -79,7 +75,7 @@
 .header__links-list {
   display: flex;
   align-items: center;
-  gap: 10px 33px;
+  gap: 32px;
   list-style: circle;
 }
 
@@ -196,7 +192,7 @@
 }
 
 .lots__card-list-item {
-  flex: 1 1 430px;
+  flex: 1 1 315px;
   min-height: 450px;
 }
 
@@ -274,7 +270,7 @@
 
 .about {
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: 315px 1fr;
   column-gap: 28px;
   padding: 130px 50px 90px 50px;
 }
@@ -283,7 +279,7 @@
   display: flex;
   width: 240px;
   height: 240px;
-  margin: 0 94px;
+  margin: 0 auto;
   border-radius: 50%;
   background: #000;
 }
